@@ -167,9 +167,9 @@
 
       <h3 style="text-align: center;">Get In Touch</h3>
 
-      <form id="contact-form" onsubmit="return false">
+      <form name="contact-form"  method="POST" action="submit_form.php">
         <label>Name</label>
-        <input class="input-field" type="text" placeholder="Enter your first and last name" id = "name">
+        <input class="input-field" type="text" placeholder="Enter your first and last name" name="name">
 
         <label>Subject</label>
         <input class="input-field" type="text" placeholder="Enter the subject matter" name="subject">
@@ -180,7 +180,7 @@
         <label>Message</label>
         <textarea class="input-field" name="message"></textarea>
         
-        <button id="submit-btn">Send</button>
+        <button id="submit-btn" onclick="onSubmit();">Send</button>
       </form>
 
     </div>
