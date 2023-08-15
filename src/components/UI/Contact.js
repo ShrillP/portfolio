@@ -14,7 +14,6 @@ const Contact = () => {
                         loading="lazy" 
                         referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <script type="text/javascript" src="script.js"></script>
                 <div className='w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-indigo-100 px-4 lg:px-8 py-8'>
                     <form className='w-full' method="POST" action="https://formspree.io/f/xoqynzbd">
                         <div className='mb-5'>
